@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1 id="main-header" align="center">Tic Tac Toe</h1>
+    <table align="center" id="field">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <div align="center">
+        <button id="start-button" onclick="startGame()">Start Game</button>
+    </div>
+    <br>
+            <table align="center" id="score">
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="winX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="winO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничья</td>
+                    <td><span id="draw">0</span></td>
+                </tr>
+            </table>
+    <script src="script.js"></script>
+</body>
+</html>

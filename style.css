@@ -8,14 +8,12 @@ body {
 }
 
 #field td {
-    /* Означает взять все тэги td внутри элемента с id=field */
     width: 180px;
     height: 180px;
     border: 1px solid #E7BF70;
     text-align: center;
     font-size: 50px;
     color: #E7BF70;
-    /* text-align - Выравнивание элементов внутри объекта */
 }
 
 #start-button {
